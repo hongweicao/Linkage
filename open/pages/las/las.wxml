@@ -1,0 +1,11 @@
+<!--pages/las/las.wxml--> 
+<import src="../cascade/cascade.wxml" />
+<view bindtap="pushView" class='btn1'>
+  <text>点击红色拉起</text>
+</view>
+<view class='btn2'>
+  <text>省：{{ChooseData.Province}}</text>
+  <text>市：{{ChooseData.City}}</text>
+  <text>区：{{ChooseData.Area}}</text>
+</view>
+<template is="cascade" data="{{animationData:AnimationData,province:Province,city:City,area:Area}}" />

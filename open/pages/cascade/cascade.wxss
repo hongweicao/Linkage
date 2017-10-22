@@ -1,0 +1,63 @@
+/* pages/cascade/cascade.wxss */
+
+.cascade_box {
+  font-size: 28rpx;
+  width: 100%;
+  height: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.cascade_hei {
+  width: 100%;
+  height: 40%;
+  background: #000;
+  opacity: 0.5;
+}
+
+.cascade_find {
+  width: 100%;
+  height: 60%;
+  position: relative;
+  background: #fff;
+}
+
+.quxiao, .queren {
+  display: block;
+  position: absolute;
+  width: 100rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  /*background: #00f;*/
+  text-align: center;
+  color: #0f0;
+  font-size: 32rpx;
+}
+
+.queren {
+  right: 0;
+  top: 0;
+}
+
+.cascade_header {
+  height: 10%;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+
+.pickerview {
+  width: 100%;
+  height: 400rpx;
+}
+
+/* .pickerviewcolumn{
+line-height: 80rpx;text-align:center;
+} */
+
+/*我们的样式尽量提取出来 */
+
+picker-view.pickerview picker-view-column view {
+  line-height: 80rpx;
+  text-align: center;
+}
