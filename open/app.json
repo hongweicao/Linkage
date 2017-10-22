@@ -1,0 +1,15 @@
+{
+  "pages": [
+     "pages/las/las",
+    "pages/index/index",
+
+    "pages/cascade/cascade",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,21 @@
+/* pages/las/las.wxss */
+@import '../cascade/cascade.wxss';
+
+.btn1 {
+  width: 100%;
+  height: 200rpx;
+  background-color: #f00;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #00f;
+  margin:0 0 30rpx 0;
+}
+.btn2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 30rpx;
+}

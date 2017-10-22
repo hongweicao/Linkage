@@ -1,0 +1,22 @@
+<template name="cascade">
+  <view class="cascade_box" animation="{{animationData}}">
+     <view class="cascade_hei" bindtap='cancleClick'></view>
+    <view class="cascade_find">
+      <view class="cascade_header">
+        <text class='quxiao' catchtap="cancleClick">取消</text>
+        <text class="queren" catchtap="confirmClick">确认</text>
+      </view>
+      <picker-view indicator-style="height:100rpx;" class='pickerview' bindchange="bindChange">
+        <picker-view-column>
+          <view wx:for="{{province}}" wx:key='this' >{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view wx:for="{{city}}" wx:key='this' >{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view wx:for="{{area}}" wx:key='this'>{{item}}</view>
+        </picker-view-column>
+      </picker-view>
+    </view> 
+  </view>
+</template>
